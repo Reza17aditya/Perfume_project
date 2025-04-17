@@ -13,7 +13,7 @@ class PageController extends Controller
         [
             'current_page' => 'home',
             'products' => Product::all(),
-            'javascript_file' => 'js.main/js.js',
+            'javascript_file' => 'js/main/js.js',
         ]);
     }
 }
